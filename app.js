@@ -52,9 +52,9 @@ function setTime(value) {
   timeEl.innerHTML = `00:${value}`;
 }
 function finishGame() {
-  timeLast.textContent = 'Время вышло!';
+  timeLast.textContent = 'Time is up!';
 
-  board.innerHTML = `<h1>Счёт: <span class="primary">${score}</span></h1>`;
+  board.innerHTML = `<h1>Score: <span class="primary">${score}</span></h1>`;
 }
 
 function createRandomCircle() {
