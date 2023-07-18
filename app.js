@@ -38,8 +38,7 @@ function startGame() {
 
 function decreaseTime() {
   if (time === 0) {
-    finishGame(); //
-    document.getElementsByClassName('.time-last').text = 'trbbb';
+    finishGame(); 
   } else {
     let current = --time;
     if (current < 10) {
